@@ -1,0 +1,42 @@
+/* 🌿 MAIN LAYOUT */
+.employee-dashboard-page {
+  background-color: #f9fafb;
+  min-height: 85vh;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+/* 🌿 HEADER BANNER (Support Messages section) */
+.employee-dashboard-header {
+  background: linear-gradient(90deg, #15803d, #16a34a); /* Same as header */
+  color: white;
+  padding: 20px 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.employee-dashboard-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white; /* White title text */
+}
+
+.employee-dashboard-header p {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #f0fdf4; /* Softer mint text for subtitle */
+}
+
+/* 🌿 BODY CONTAINER */
+.employee-dashboard-body {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+

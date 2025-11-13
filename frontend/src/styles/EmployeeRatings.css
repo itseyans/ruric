@@ -1,0 +1,36 @@
+.admin-ratings {
+  background: #f9fafb;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.admin-ratings h2 {
+  color: #14532d;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.ratings-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.ratings-table th {
+  background: #16a34a;
+  color: white;
+  padding: 12px;
+  text-align: left;
+}
+
+.ratings-table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.ratings-table tr:hover {
+  background-color: #f0fdf4;
+}

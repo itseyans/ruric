@@ -1,0 +1,128 @@
+/* === Profile Page Layout === */
+.profile-page {
+  padding: 40px;
+  background: #f7fdf8;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-header {
+  color: #2e7d32;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+/* === Container === */
+.profile-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 90%;
+  max-width: 1100px;
+}
+
+/* === Profile Cards === */
+.profile-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 30px 35px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 480px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.profile-card h3 {
+  color: #2e7d32;
+  margin-bottom: 20px;
+  border-left: 5px solid #a5d6a7;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+/* === Form Elements === */
+.profile-form label {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.profile-form input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 0.95rem;
+  margin-top: 6px;
+  transition: border 0.2s ease;
+}
+
+.profile-form input:focus {
+  border-color: #4caf50;
+}
+
+/* === Buttons === */
+.btn-save,
+.btn-change {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-save {
+  background: #4caf50;
+  color: white;
+}
+
+.btn-save:hover {
+  background: #388e3c;
+}
+
+.btn-change {
+  background: #2e7d32;
+  color: white;
+}
+
+.btn-change:hover {
+  background: #1b5e20;
+}
+
+/* === Status Message === */
+.profile-status {
+  margin-top: 25px;
+  font-size: 1rem;
+  text-align: center;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+/* === Responsive Design === */
+@media (max-width: 900px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-card {
+    max-width: 95%;
+  }
+}

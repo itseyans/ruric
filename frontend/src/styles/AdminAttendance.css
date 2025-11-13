@@ -1,0 +1,28 @@
+.admin-attendance {
+  padding: 25px;
+  background: #f9fafb;
+  border-radius: 12px;
+}
+
+.admin-attendance h2 {
+  color: #166534;
+  margin-bottom: 8px;
+}
+
+.admin-attendance p {
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+.chart-wrapper {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.recharts-legend-item-text {
+  font-size: 0.9rem;
+  color: #374151;
+}

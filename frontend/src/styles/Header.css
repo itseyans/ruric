@@ -1,0 +1,145 @@
+.header {
+  background: linear-gradient(135deg, #2e7d32, #388e3c);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Left section */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.header-logo {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 4px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.header-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffffff; /* ✅ White text */
+  letter-spacing: 0.5px;
+}
+
+/* Navigation links */
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #c8e6c9;
+  transform: translateY(-2px);
+}
+
+/* Logout button — now white! */
+.logout-btn {
+  background: #ffffff; /* ✅ White button */
+  color: #2e7d32; /* Green text for contrast */
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.logout-btn:hover {
+  background: #f1f8f4;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Base header layout */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* ✅ Green variant (like Ruri Club) */
+.header-green {
+  background-color: #166534;
+}
+
+/* Left section */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header-logo {
+  height: 45px;
+}
+
+.header-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+/* ✅ White font variant for green background */
+.white-text {
+  color: #ffffff;
+}
+
+/* ✅ Nav styling */
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+/* White nav links */
+.white-link {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+.white-link:hover {
+  opacity: 0.8;
+}
+
+/* ✅ White logout button (green text, matches Ruri Club) */
+.logout-light {
+  background-color: #ffffff;
+  color: #166534;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.logout-light:hover {
+  background-color: #f0fdf4;
+  transform: translateY(-1px);
+}

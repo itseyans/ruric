@@ -1,0 +1,74 @@
+.admin-dashboard {
+  padding: 25px;
+  background-color: #f9fafb;
+  border-radius: 10px;
+}
+
+.employee-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 25px;
+}
+
+.employee-card {
+  position: relative; /* <-- allows the badge to sit at far right */
+  background: #ffffff;
+  border: 1.5px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s ease-in-out;
+}
+
+.employee-card:hover {
+  border-color: #16a34a;
+  box-shadow: 0 2px 8px rgba(22, 163, 74, 0.15);
+}
+
+/* employee info stays on the left */
+.employee-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.employee-info h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #166534;
+  font-weight: 600;
+}
+
+.employee-info p {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+  color: #4b5563;
+}
+
+/* 🟢 Status button fixed to the far right */
+.status-btn {
+  position: absolute;
+  right: 20px;        /* pushes to far right */
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 14px;
+  cursor: default;
+  transition: all 0.2s ease-in-out;
+}
+
+.status-btn.present {
+  background-color: #16a34a;
+  color: #ffffff;
+}
+
+.status-btn.absent {
+  background-color: #991b1b;
+  color: #ffffff;
+}
