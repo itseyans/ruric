@@ -67,9 +67,8 @@ export const getAttendance = async () => {
 
 // ===== Attendance =====
 export const getAttendanceForEmployee = async (employee_id) => {
-  const res = await fetch(`http://127.0.0.1:5000/attendance/${employee_id}`);
+  const res = await fetch(`${API_URL}/attendance/${employee_id}`);
   return res.json();
-};
 
 export const markAttendance = async (employee_id, status) => {
   const res = await fetch(`${API_URL}/attendance/mark`, {
